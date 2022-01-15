@@ -7,7 +7,7 @@
  * @param b pointer to int array b
  * @return the hamming distance
  */
-int hamming_distance(int *a, int len_a, int *b, int len_b) {
+int hamming_distance(const int *a, int len_a, const int *b, int len_b) {
     if (len_a != len_b) {
         printf("a and b must have the same length");
     }
